@@ -16,7 +16,7 @@ router
     .post(addUser)
 
 router
-    .route('/:userId')
+    .route('/:id')
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser)
