@@ -5,7 +5,6 @@
 - [Usage](#usage)
 - [Technologies used](#technologies-used)
 - [Installation](#installation)
-- [Walkthrough video](#walkthrough-video)
 
 ## Usage
 This project consists of back end API routes, so make sure you have Insomnia (or your preferred API route-testing application of choice) installed.
