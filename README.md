@@ -22,6 +22,4 @@ In an indepedent terminal, start your MongoDB server according to your machine. 
 After downloading the code and after your MongoDB is up and running, in an integrated terminal, run the following commands:
 `npm i`<br>
 `npm install`<br>
-This will ensure you have the correct node dependencies installed. Then, to connect to the server so you can test the routes, run `npm start` and open your route-testing application. The routes will be tested at `http://localhost:3001/api/`, with the rest of the url dependent upon which route you are testing.
-
-## Walkthrough video
+This will ensure you have the correct node dependencies installed. Then, to connect to the server so you can test the routes, run<br> `npm start` and open your route-testing application. The routes will be tested at `http://localhost:3001/api/`, with the rest of the url dependent upon which route you are testing.
