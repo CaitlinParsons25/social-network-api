@@ -25,7 +25,8 @@ const ReactionSchema = new Schema(
     {
         toJSON: {
             getters: true
-        }
+        },
+        id: false
     }
 );
 
@@ -34,13 +35,8 @@ const ThoughtSchema = new Schema(
         thoughtText: {
             type: String,
             required: true,
+            minLength: 1,
             maxLength: 280,
-            validate: {
-                validator: function(val) {
-                    return val.length >=1
-                },
-                message: () => `Your thought must be at least 1 character long.`
-            },
             default: null
         },
         createdAt: {
@@ -58,7 +54,8 @@ const ThoughtSchema = new Schema(
         toJSON: {
             virtuals: true,
             getters: true
-        }
+        },
+        id: false
     }
 );
 
